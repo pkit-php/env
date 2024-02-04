@@ -1,0 +1,26 @@
+{
+    "name": "pkit/env",
+    "description": "a simple env loader",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Pkit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kau-gusto",
+            "email": "kauaug.mo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.33"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
